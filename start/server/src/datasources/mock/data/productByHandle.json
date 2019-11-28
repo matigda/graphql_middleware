@@ -1,0 +1,603 @@
+{
+  "availableForSale": true,
+  "collections": {
+    "edges": [
+      {
+        "cursor": "eyJsYXN0X2lkIjo2ODgwOTY1NDMzNiwibGFzdF92YWx1ZSI6IjY4ODA5NjU0MzM2In0=",
+        "node": {
+          "description": null,
+          "handle": "frontpage",
+          "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzY4ODA5NjU0MzM2",
+          "image": {
+            "altText": null,
+            "id": null,
+            "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31.png?v=1569754901",
+            "variants": [
+              {
+                "name": "square",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31_200x200_crop_center.png?v=1569754901"
+                  }
+                ],
+                "aspectRatio": 1
+              },
+              {
+                "name": "natural",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31.png?v=1569754901"
+                  }
+                ],
+                "aspectRatio": 1
+              }
+            ]
+          },
+          "title": "Home page",
+          "updatedAt": "2019-11-04T13:10:01Z"
+        }
+      },
+      {
+        "cursor": "eyJsYXN0X2lkIjoxMzk5MTI4NzIwMDAsImxhc3RfdmFsdWUiOiIxMzk5MTI4NzIwMDAifQ==",
+        "node": {
+          "description": null,
+          "handle": "baby",
+          "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEzOTkxMjg3MjAwMA==",
+          "image": {
+            "altText": null,
+            "id": null,
+            "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23.png?v=1567414730",
+            "variants": [
+              {
+                "name": "square",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23_200x200_crop_center.png?v=1567414730"
+                  }
+                ],
+                "aspectRatio": 1
+              },
+              {
+                "name": "natural",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23.png?v=1567414730"
+                  }
+                ],
+                "aspectRatio": 1
+              }
+            ]
+          },
+          "title": "Baby",
+          "updatedAt": "2019-11-04T13:10:01Z"
+        }
+      },
+      {
+        "cursor": "eyJsYXN0X2lkIjoxNDA0NzE5NTk2MTYsImxhc3RfdmFsdWUiOiIxNDA0NzE5NTk2MTYifQ==",
+        "node": {
+          "description": null,
+          "handle": "test-collection-1",
+          "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE0MDQ3MTk1OTYxNg==",
+          "image": {
+            "altText": null,
+            "id": null,
+            "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472.png?v=1568448889",
+            "variants": [
+              {
+                "name": "square",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472_200x200_crop_center.png?v=1568448889"
+                  }
+                ],
+                "aspectRatio": 1
+              },
+              {
+                "name": "natural",
+                "srcset": [
+                  {
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472.png?v=1568448889"
+                  }
+                ],
+                "aspectRatio": 1
+              }
+            ]
+          },
+          "title": "Test collection",
+          "updatedAt": "2019-11-04T13:10:01Z"
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "hasPreviousPage": false
+    }
+  },
+  "createdAt": "2019-09-04T15:58:03Z",
+  "description": "ClubKnit 73% Polyester, 25% Nylon, 2% Spandex Cody is 6'1\" and wears a size Medium",
+  "handle": "clubknit-polo",
+  "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQwODEzNjEzNTQ4MTY=",
+  "images": {
+    "edges": [
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34.jpg?v=1567613521",
+          "altText": "Pine-1",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34_200x200_crop_center.jpg?v=1567613521"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34.jpg?v=1567613521"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2-M300390_PIQ_PNE_Clubknit_Polo_Pine_034_V1_1024x1024_5ccc1841-7be5-4ff5-af4a-46fdcbeb9505.jpg?v=1567613527",
+          "altText": "Pine-2",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2-M300390_PIQ_PNE_Clubknit_Polo_Pine_034_V1_1024x1024_5ccc1841-7be5-4ff5-af4a-46fdcbeb9505_200x200_crop_center.jpg?v=1567613527"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2-M300390_PIQ_PNE_Clubknit_Polo_Pine_034_V1_1024x1024_5ccc1841-7be5-4ff5-af4a-46fdcbeb9505.jpg?v=1567613527"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1_hero_M300390_PIQ_CLD_Clubknit_Polo_Cloud_131_V1_1024x1024_e725e21f-e0ad-4e6c-a9e1-61663a17f292.jpg?v=1567613547",
+          "altText": "Cloud-1",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1_hero_M300390_PIQ_CLD_Clubknit_Polo_Cloud_131_V1_1024x1024_e725e21f-e0ad-4e6c-a9e1-61663a17f292_200x200_crop_center.jpg?v=1567613547"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1_hero_M300390_PIQ_CLD_Clubknit_Polo_Cloud_131_V1_1024x1024_e725e21f-e0ad-4e6c-a9e1-61663a17f292.jpg?v=1567613547"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2_M300390_PIQ_CLD_Clubknit_Polo_Cloud_082_V1_1024x1024_62da81f9-6d21-4388-8676-19cfb673460d.jpg?v=1567613553",
+          "altText": "Cloud-2",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2_M300390_PIQ_CLD_Clubknit_Polo_Cloud_082_V1_1024x1024_62da81f9-6d21-4388-8676-19cfb673460d_200x200_crop_center.jpg?v=1567613553"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/2_M300390_PIQ_CLD_Clubknit_Polo_Cloud_082_V1_1024x1024_62da81f9-6d21-4388-8676-19cfb673460d.jpg?v=1567613553"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_CLD_Clubknit_Polo_Cloud_092_V1_1024x1024_cfa66bf1-41e0-4f21-8b6a-ec29b0842c8e.jpg?v=1567613560",
+          "altText": "Cloud-3",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_CLD_Clubknit_Polo_Cloud_092_V1_1024x1024_cfa66bf1-41e0-4f21-8b6a-ec29b0842c8e_200x200_crop_center.jpg?v=1567613560"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_CLD_Clubknit_Polo_Cloud_092_V1_1024x1024_cfa66bf1-41e0-4f21-8b6a-ec29b0842c8e.jpg?v=1567613560"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_PNE_Clubknit_Polo_Pine_026_V1_1024x1024_7cf700f8-0ae9-4d56-8f49-6e44ea4fc0b4.jpg?v=1567613532",
+          "altText": "Pine-3",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_PNE_Clubknit_Polo_Pine_026_V1_1024x1024_7cf700f8-0ae9-4d56-8f49-6e44ea4fc0b4_200x200_crop_center.jpg?v=1567613532"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/3_M300390_PIQ_PNE_Clubknit_Polo_Pine_026_V1_1024x1024_7cf700f8-0ae9-4d56-8f49-6e44ea4fc0b4.jpg?v=1567613532"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/6_d-armpit_M300390_PIQ_PNE_Clubknit_Polo_Pine_181_V1_1024x1024_ca301df1-4670-4552-b570-33b19b75dc30.jpg?v=1567613540",
+          "altText": "Pine-4",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/6_d-armpit_M300390_PIQ_PNE_Clubknit_Polo_Pine_181_V1_1024x1024_ca301df1-4670-4552-b570-33b19b75dc30_200x200_crop_center.jpg?v=1567613540"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/6_d-armpit_M300390_PIQ_PNE_Clubknit_Polo_Pine_181_V1_1024x1024_ca301df1-4670-4552-b570-33b19b75dc30.jpg?v=1567613540"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "id": null,
+          "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/5_d-armpit_M300390_PIQ_CLD_Clubknit_Polo_Cloud_163_V1_1024x1024_b0cdb48e-169c-46cc-b7c8-b2513714f7f9.jpg?v=1567613566",
+          "altText": "Cloud-4",
+          "variants": [
+            {
+              "aspectRatio": 1,
+              "name": "square",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/5_d-armpit_M300390_PIQ_CLD_Clubknit_Polo_Cloud_163_V1_1024x1024_b0cdb48e-169c-46cc-b7c8-b2513714f7f9_200x200_crop_center.jpg?v=1567613566"
+                }
+              ]
+            },
+            {
+              "aspectRatio": 1,
+              "name": "natural",
+              "srcset": [
+                {
+                  "width": 100,
+                  "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/5_d-armpit_M300390_PIQ_CLD_Clubknit_Polo_Cloud_163_V1_1024x1024_b0cdb48e-169c-46cc-b7c8-b2513714f7f9.jpg?v=1567613566"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "options": [
+    {
+      "name": "Size",
+      "values": [
+        "XS",
+        "S",
+        "L",
+        "M",
+        "XL"
+      ]
+    },
+    {
+      "name": "Color",
+      "values": [
+        "Pine",
+        "Cloud"
+      ]
+    }
+  ],
+  "tags": [
+    "collar",
+    "collection:Baby",
+    "collection:Test collection",
+    "polo",
+    "top"
+  ],
+  "title": "Clubknit Polo",
+  "variants": {
+    "edges": [
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "XS / Pine",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzIwMjM2OA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XS"
+            },
+            {
+              "name": "Color",
+              "value": "Pine"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "XS / Cloud",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzIzNTEzNg==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XS"
+            },
+            {
+              "name": "Color",
+              "value": "Cloud"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "S / Pine",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzI2NzkwNA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "Pine"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": false,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "S / Cloud",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzMwMDY3Mg==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "Cloud"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "L / Pine",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzMzMzQ0MA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "Pine"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "L / Cloud",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzM2NjIwOA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "Cloud"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": false,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "M / Pine",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzM5ODk3Ng==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "Pine"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "M / Cloud",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzQzMTc0NA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "Cloud"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "XL / Pine",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzQ2NDUxMg==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "Pine"
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "availableForSale": true,
+          "price": {
+            "currencyCode": "PLN",
+            "amount": "34.0"
+          },
+          "title": "XL / Cloud",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzQ5NzI4MA==",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "Cloud"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55b49057-e126-451b-a1a4-52c9a595dc61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/start/client/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/apollo.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/curve.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/icons/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/icons/exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/icons/profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/badge-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/badge-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/badge-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/dog-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/dog-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/dog-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/galaxy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/iss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/images/space.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/assets/rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/launch-detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/launch-tile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/login-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/menu-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/__tests__/page-container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/launch-detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/launch-tile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/login-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/menu-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/components/page-container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/__tests__/action-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/__tests__/book-trips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/__tests__/cart-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/__tests__/logout-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/action-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/book-trips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/cart-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/containers/logout-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/__tests__/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/__tests__/launch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/__tests__/launches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/__tests__/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/__tests__/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/launch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/launches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/pages/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/resolvers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/src/test-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/client/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/start/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/datasources/__tests__/launch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/datasources/__tests__/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/datasources/launch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/datasources/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/server/src/resolvers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/server/src/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/server/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/server/store.sqlite" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/CheckoutGraphQLAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutLineItemsReplace.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/shopify/CheckoutGraphQLAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/CollectionGraphQLAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutCreate.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/products.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="8" />
+              <folding>
+                <element signature="e#163#4967#0" />
+                <element signature="e#5233#15418#0" />
+                <element signature="e#18647#20429#0" />
+                <element signature="e#20622#22760#0" />
+                <element signature="e#26593#29006#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/schema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="1640" column="53" lean-forward="true" selection-start-line="1640" selection-start-column="53" selection-end-line="1640" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/ProductGraphQLAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="8" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/productByHandle.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="377" column="7" lean-forward="true" selection-start-line="377" selection-start-column="7" selection-end-line="377" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!block;n#collections#0;n#!!top" />
+                <element signature="n#!!block;n#images#0;n#!!top" />
+                <element signature="n#!!block;n#variants#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type query</find>
+      <find>type paginati</find>
+      <find>type paginat</find>
+      <find>pagination</find>
+      <find>products(</find>
+      <find>variants</find>
+      <find>checkoutAttributesUpdateV2</find>
+      <find>itemsPerP</find>
+      <find>itemsPer</find>
+      <find>price</find>
+      <find>totalTax</find>
+      <find>MoneyV2</find>
+      <find>subtotalPriceV2</find>
+      <find>type Checkout</find>
+      <find>CollectionGraphQLAPI</find>
+      <find>type Check</find>
+      <find>subtotalPrice</find>
+      <find>CheckoutGraphQLAPI</find>
+      <find>type colle</find>
+      <find>type chec</find>
+      <find>type checkout</find>
+      <find>type checkoutcreate</find>
+      <find>CheckoutCreatePayload</find>
+      <find>checkoutCreate</find>
+      <find>type CheckoutLineItem</find>
+      <find>type product</find>
+      <find>checkoutUserErrors</find>
+      <find>.node</find>
+      <find>mutation</find>
+      <find>checkoutLineitemsRepl</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/start/server/src/datasources/launch.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/collection.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/ProductGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/shopify/CollectionGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/queries/shopify/getCursorForLastProductOnGivenPage.js" />
+        <option value="$PROJECT_DIR$/start/server/src/utils.js" />
+        <option value="$PROJECT_DIR$/start/server/src/mutations/shopify/updateItemsInCart.js" />
+        <option value="$PROJECT_DIR$/start/server/src/queries/shopify/getProductByHandle.js" />
+        <option value="$PROJECT_DIR$/start/server/src/queries/shopify/getCollectionByHandle.js" />
+        <option value="$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutCreate.js" />
+        <option value="$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutFragment.js" />
+        <option value="$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutLineItemsReplace.js" />
+        <option value="$PROJECT_DIR$/start/server/src/resolvers.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/shopify/CheckoutGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/shopify/ProductGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/schema.js" />
+        <option value="$PROJECT_DIR$/start/server/src/queries/shopify/getProducts.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/ProductGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/data/collectionByHandle.json" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/database/store.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/data/productByHandle.json" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/data/products.json" />
+        <option value="$PROJECT_DIR$/start/server/src/index.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/CollectionGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutCreate.json" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/CheckoutGraphQLAPI.js" />
+        <option value="$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutLineItemsReplace.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+              <item name="shopify" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/start/server/src/datasources/mock" />
+      <recent name="$PROJECT_DIR$/start/server/src/mutations/shopify" />
+      <recent name="$PROJECT_DIR$/start/server/src/datasources/shopify" />
+      <recent name="$PROJECT_DIR$/start/server/src/queries/shopify" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/start/server/src/datasources/mock" />
+      <recent name="$PROJECT_DIR$/start/server/src/datasources/shopify" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55b49057-e126-451b-a1a4-52c9a595dc61" name="Default Changelist" comment="" />
+      <created>1572855608140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572855608140</updated>
+      <workItem from="1572855609267" duration="17180000" />
+      <workItem from="1573031761704" duration="1202000" />
+      <workItem from="1573225585768" duration="6000" />
+      <workItem from="1573550623979" duration="11866000" />
+      <workItem from="1573636596032" duration="28787000" />
+      <workItem from="1573810084456" duration="2388000" />
+      <workItem from="1574092110766" duration="8684000" />
+      <workItem from="1574327090118" duration="841000" />
+      <workItem from="1574348805821" duration="3762000" />
+      <workItem from="1574684911029" duration="19580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94296000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-2" width="1920" height="1202" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28815368" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Structure" order="9" weight="0.24930233" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/start/client/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/final/server/src/__tests__/resolvers.query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/node_modules/apollo-link/lib/link.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/node_modules/apollo-link/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/node_modules/sequelize/lib/associations/helpers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/launch.js" />
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/user.js" />
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/__tests__/launch.js" />
+    <entry file="file://$PROJECT_DIR$/start/server/src/__tests__/integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/server/src/datasources/launch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/queries/shopify/getCursorForLastProductOnGivenPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/mutations/shopify/updateItemsInCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutLineItemsReplace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/queries/shopify/getProductByHandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/shopify/ProductGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/queries/shopify/getProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/node_modules/apollo-datasource-graphql/dist/GraphQLDataSource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/shopify/CollectionGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/queries/shopify/getCollectionByHandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/database/createStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutFragment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/mutations/shopify/checkoutCreate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/resolvers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/collectionByHandle.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/productByHandle.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="377" column="7" lean-forward="true" selection-start-line="377" selection-start-column="7" selection-end-line="377" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#collections#0;n#!!top" />
+            <element signature="n#!!block;n#images#0;n#!!top" />
+            <element signature="n#!!block;n#variants#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/ProductGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/products.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <element signature="e#163#4967#0" />
+            <element signature="e#5233#15418#0" />
+            <element signature="e#18647#20429#0" />
+            <element signature="e#20622#22760#0" />
+            <element signature="e#26593#29006#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/shopify/CheckoutGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/CollectionGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/CheckoutGraphQLAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="1640" column="53" lean-forward="true" selection-start-line="1640" selection-start-column="53" selection-end-line="1640" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutCreate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/server/src/datasources/mock/data/checkoutLineItemsReplace.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
