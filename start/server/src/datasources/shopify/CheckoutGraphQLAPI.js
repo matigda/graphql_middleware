@@ -1,8 +1,9 @@
-const { GraphQLDataSource } = require('apollo-datasource-graphql');
+const AbstractPaginatedGraphQLAPI = require('../AbstractPaginatedGraphQLAPI');
 const CHECKOUT_CREATE = require('../../mutations/shopify/checkoutCreate');
 const CHECKOUT_LINE_ITEMS_REPLACE = require('../../mutations/shopify/checkoutLineItemsReplace');
+const CHECKOUT = require('../../queries/shopify/getCheckout');
 
-class CheckoutGraphQLAPI extends GraphQLDataSource {
+class CheckoutGraphQLAPI extends AbstractPaginatedGraphQLAPI {
     constructor() {
         super();
         this.baseURL = 'https://biggest-ecommerce.myshopify.com/api/graphql';
@@ -24,6 +25,17 @@ class CheckoutGraphQLAPI extends GraphQLDataSource {
 
             return response.data.checkoutLineItemsReplace;
         } catch(error) {
+            console.error(error);
+        }
+    }
+
+    async checkout(id) {
+        try {
+            const response = await this.query(CHECKOUT, {variables: {id}});
+
+            return response.data.node;
+
+        } catch (error) {
             console.error(error);
         }
     }

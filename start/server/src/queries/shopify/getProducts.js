@@ -38,6 +38,7 @@ query ($first: Int, $last: Int, $before: String, $after: String){
 	      id
 	      images(first: 100) {
           edges {
+            cursor
             node {
                 originalSrc
                 squareSrc: transformedSrc(

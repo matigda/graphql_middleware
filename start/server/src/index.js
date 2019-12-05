@@ -1,4 +1,4 @@
-const CollectionGraphQLAPI = require( "./datasources/shopify/CollectionGraphQLAPI");
+const CollectionGraphQLAPI = require( "./datasources/mock/CollectionGraphQLAPI");
 const ProductGraphQLAPI = require( "./datasources/mock/ProductGraphQLAPI");
 const CheckoutGraphQLAPI = require( "./datasources/mock/CheckoutGraphQLAPI");
 

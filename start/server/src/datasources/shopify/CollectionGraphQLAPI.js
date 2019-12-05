@@ -1,7 +1,8 @@
-const { GraphQLDataSource } = require('apollo-datasource-graphql');
+const AbstractPaginatedGraphQLAPI = require('../AbstractPaginatedGraphQLAPI');
 const COLLECTION_BY_HANDLE  = require('../../queries/shopify/getCollectionByHandle');
+const COLLECTIONS  = require('../../queries/shopify/getCollections');
 
-class CollectionGraphQLAPI extends GraphQLDataSource {
+class CollectionGraphQLAPI extends AbstractPaginatedGraphQLAPI {
     constructor() {
         super();
         this.baseURL = 'https://biggest-ecommerce.myshopify.com/api/graphql';
@@ -12,6 +13,17 @@ class CollectionGraphQLAPI extends GraphQLDataSource {
             const response = await this.query(COLLECTION_BY_HANDLE, {variables: {collectionName, productsAmount}});
 
             return response.data.collectionByHandle;
+
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
+    async collections(amount) {
+        try {
+            const response = await this.query(COLLECTIONS, { variables: { amount } });
+
+            return response.data.collections;
 
         } catch (error) {
             console.error(error);

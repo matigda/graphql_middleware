@@ -1,0 +1,72 @@
+{
+      "edges": [
+        {
+          "node": {
+            "description": "",
+            "descriptionHtml": "",
+            "handle": "frontpage",
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzY4ODA5NjU0MzM2",
+            "image": {
+              "altText": null,
+              "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uSW1hZ2UvMTQ0OTc4ODM3NTY4",
+              "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31.png?v=1569754901",
+              "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31.png?v=1569754901",
+              "squareSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31_200x200_crop_center.png?v=1569754901",
+              "naturalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-09-02_10-38-31.png?v=1569754901"
+            },
+            "title": "Home page"
+          }
+        },
+        {
+          "node": {
+            "description": "Products for babies",
+            "descriptionHtml": "Products for babies",
+            "handle": "baby",
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEzOTkxMjg3MjAwMA==",
+            "image": {
+              "altText": null,
+              "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uSW1hZ2UvNjI1NDUxMzM2MzI=",
+              "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23.png?v=1567414730",
+              "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23.png?v=1567414730",
+              "squareSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23_200x200_crop_center.png?v=1567414730",
+              "naturalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-26_14-21-23.png?v=1567414730"
+            },
+            "title": "Baby"
+          }
+        },
+        {
+          "node": {
+            "description": "Some collection description",
+            "descriptionHtml": "Some collection description",
+            "handle": "test-collection-1",
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE0MDQ3MTk1OTYxNg==",
+            "image": {
+              "altText": null,
+              "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uSW1hZ2UvNjI5MjYyMjU0NzI=",
+              "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472.png?v=1568448889",
+              "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472.png?v=1568448889",
+              "squareSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472_200x200_crop_center.png?v=1568448889",
+              "naturalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/Screenshot_from_2019-03-22_11-50-53_9b7e8837-0ad7-4df6-9da7-a3a2a43bd472.png?v=1568448889"
+            },
+            "title": "Test collection"
+          }
+        },
+        {
+          "node": {
+            "description": "",
+            "descriptionHtml": "",
+            "handle": "tttttttttttttt",
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1MDkxNTYxMjczNg==",
+            "image": {
+              "altText": null,
+              "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uSW1hZ2UvMTQ1MDEyMTk1Mzky",
+              "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/mio-design_assets_1Xft7ot5qXNAtJxcpbSDXaB0yivkO3m5f_theming-overview-applyingtheming-default.png?v=1570026430",
+              "src": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/mio-design_assets_1Xft7ot5qXNAtJxcpbSDXaB0yivkO3m5f_theming-overview-applyingtheming-default.png?v=1570026430",
+              "squareSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/mio-design_assets_1Xft7ot5qXNAtJxcpbSDXaB0yivkO3m5f_theming-overview-applyingtheming-default_200x200_crop_center.png?v=1570026430",
+              "naturalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/collections/mio-design_assets_1Xft7ot5qXNAtJxcpbSDXaB0yivkO3m5f_theming-overview-applyingtheming-default.png?v=1570026430"
+            },
+            "title": "TTTTTTTTTTTTTT"
+          }
+        }
+      ]
+    }

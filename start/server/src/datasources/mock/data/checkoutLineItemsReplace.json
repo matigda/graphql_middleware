@@ -1,7 +1,10 @@
 {
   "data": {
     "checkoutLineItemsReplace": {
+      "checkoutUserErrors": [],
+      "checkout": {
 
+      }
     }
   }
 }

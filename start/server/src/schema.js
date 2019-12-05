@@ -593,6 +593,16 @@ type Checkout implements Node {
   """
   discountApplications(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -632,6 +642,16 @@ type Checkout implements Node {
   A list of line item objects, each one containing information about an item in the checkout.
   """
   lineItems(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -1833,6 +1853,16 @@ type Collection implements Node {
   List of products in the collection.
   """
   products(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -4050,6 +4080,16 @@ type Customer {
   """
   addresses(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -4119,6 +4159,16 @@ type Customer {
   The orders associated with the customer.
   """
   orders(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -4910,6 +4960,16 @@ type Fulfillment {
   """
   fulfillmentLineItems(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -4945,6 +5005,16 @@ type Fulfillment {
   such as the tracking number and tracking URL.
   """
   trackingInfo(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Truncate the array result to this size.
     """
@@ -5034,6 +5104,16 @@ interface HasMetafields {
     """
     namespace: String
 
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -6139,6 +6219,16 @@ type Order implements Node {
   """
   discountApplications(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -6178,6 +6268,16 @@ type Order implements Node {
   List of the order’s line items.
   """
   lineItems(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -6256,6 +6356,16 @@ type Order implements Node {
   List of the order’s successful fulfillments.
   """
   successfulFulfillments(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Truncate the array result to this size.
     """
@@ -6654,6 +6764,16 @@ type Product implements Node {
   """
   collections(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -6737,6 +6857,16 @@ type Product implements Node {
     #    """
     #    scale: Int = 1
 
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -6829,6 +6959,16 @@ type Product implements Node {
   """
   options(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Truncate the array result to this size.
     """
     first: Int
@@ -6913,6 +7053,16 @@ type Product implements Node {
   List of the product’s variants.
   """
   variants(
+    """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
     """
     Returns up to the first \`n\` elements from the list.
     """
@@ -7571,6 +7721,16 @@ type QueryRoot {
   """
   collections(
     """
+    Page used in pagination
+    """
+    pageNumber: Int
+    
+    """
+    Amount of items on a single page.
+    """
+    itemsPerPage: Int
+    
+    """
     Returns up to the first \`n\` elements from the list.
     """
     first: Int
@@ -7611,7 +7771,12 @@ type QueryRoot {
     query: String
   ): CollectionConnection!
 
-  checkout: Checkout
+  checkout(
+    """
+    Checkout id.
+    """
+    id: ID!
+  ): Checkout
 
   #    customer(
   #      """

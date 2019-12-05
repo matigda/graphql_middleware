@@ -33,6 +33,11 @@ module.exports = gql`
               id
               altText
               originalSrc
+              squareSrc: transformedSrc(
+                maxWidth: 200
+                maxHeight: 200
+                crop: CENTER)
+              naturalSrc: transformedSrc
             }
             price: priceV2 {
               amount

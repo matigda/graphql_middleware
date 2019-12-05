@@ -1,11 +1,9 @@
-const { paginationHelper } = require( "../../utils");
-
-const { GraphQLDataSource } = require('apollo-datasource-graphql');
+const AbstractPaginatedGraphQLAPI = require('../AbstractPaginatedGraphQLAPI');
 const PRODUCT_BY_HANDLE  = require('../../queries/shopify/getProductByHandle');
 const PRODUCTS  = require('../../queries/shopify/getProducts');
 const GET_CURSOR_FOR_LAST_PRODUCT_ON_GIVEN_PAGE  = require('../../queries/shopify/getCursorForLastProductOnGivenPage');
 
-class ProductGraphQLAPI extends GraphQLDataSource {
+class ProductGraphQLAPI extends AbstractPaginatedGraphQLAPI {
     constructor() {
         super();
         this.baseURL = 'https://biggest-ecommerce.myshopify.com/api/graphql';
@@ -24,26 +22,13 @@ class ProductGraphQLAPI extends GraphQLDataSource {
 
     async products(pagination) {
         try {
+            const newPagination = await this.getPagination(
+                pagination,
+                GET_CURSOR_FOR_LAST_PRODUCT_ON_GIVEN_PAGE,
+                (cursorResponse) => cursorResponse.data.products.edges
+            );
 
-            const {pageNumber, itemsPerPage} = pagination;
-
-            if (pageNumber && itemsPerPage) {
-                const cursorResponse = await this.query(GET_CURSOR_FOR_LAST_PRODUCT_ON_GIVEN_PAGE,
-                    { variables: {first: (pageNumber - 1) * itemsPerPage}
-                });
-
-                const edges = cursorResponse.data.products.edges;
-
-                if (edges[0]) {
-                    pagination = { first: itemsPerPage, after: edges[0].cursor }
-                }
-            }
-
-            if (!pagination.first) {
-                pagination.first = pagination.itemsPerPage ? pagination.itemsPerPage: 100;
-            }
-
-            const response = await this.query(PRODUCTS, { variables: { ...pagination} });
+            const response = await this.query(PRODUCTS, { variables: { ...newPagination} });
 
             return response.data.products;
 

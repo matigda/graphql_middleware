@@ -1,0 +1,53 @@
+{
+  "id": "Z2lkOi8vc2hvcGlmeS9DaGVja291dC8yNDdmYThlMzZhYzlhNDA0Y2YwNWMyNmU0NDdkNGQ4ND9rZXk9ZjFjMzAyZDIyODhmMDMyMWQwMTAwZjQ0NDBhODk2N2U=",
+  "webUrl": "https://biggest-ecommerce.myshopify.com/5915050048/checkouts/247fa8e36ac9a404cf05c26e447d4d84?key=f1c302d2288f0321d0100f4440a8967e",
+  "subtotalPrice": {
+    "amount": "34.0",
+    "currencyCode": "PLN"
+  },
+  "currencyCode": "PLN",
+  "totalPrice": {
+    "amount": "34.0",
+    "currencyCode": "PLN"
+  },
+  "totalTax": {
+    "amount": "0.0",
+    "currencyCode": "PLN"
+  },
+  "lineItems": {
+    "edges": [
+      {
+        "node": {
+          "id": "Z2lkOi8vc2hvcGlmeS9DaGVja291dExpbmVJdGVtLzMwMDIzOTgzMjAyMzY4MD9jaGVja291dD0yNDdmYThlMzZhYzlhNDA0Y2YwNWMyNmU0NDdkNGQ4NA==",
+          "title": "Clubknit Polo",
+          "variant": {
+            "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMDAyMzk4MzIwMjM2OA==",
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "XS"
+              },
+              {
+                "name": "Color",
+                "value": "Pine"
+              }
+            ],
+            "title": "XS / Pine",
+            "image": {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTIzOTEzMjQzODUzNDQ=",
+              "altText": "Pine-1",
+              "originalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34.jpg?v=1567613521",
+              "squareSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34_200x200_crop_center.jpg?v=1567613521",
+              "naturalSrc": "https://cdn.shopify.com/s/files/1/0059/1505/0048/products/1-hero_M300390_PIQ_PNE_Clubknit_Polo_Pine_160_V1_1024x1024_ff6a5f27-0b78-4a4f-9deb-0b621e29bd34.jpg?v=1567613521"
+            },
+            "price": {
+              "amount": "34.0",
+              "currencyCode": "PLN"
+            }
+          },
+          "quantity": 1
+        }
+      }
+    ]
+  }
+}

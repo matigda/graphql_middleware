@@ -1,10 +1,12 @@
-const { paginateResults } = require('./utils');
-
 module.exports = {
     QueryRoot: {
         collectionByHandle: async (_, options, { dataSources }) => {
             const { handle, productsAmount } = options;
             return await dataSources.collectionGraphQLAPI.collectionByHandle(handle, 10);
+        },
+        collections: async (_, options, { dataSources }) => {
+            const { first } = options;
+            return await dataSources.collectionGraphQLAPI.collections(first);
         },
         productByHandle: async (_, options, { dataSources }) => {
             const { handle } = options;
@@ -16,8 +18,11 @@ module.exports = {
             return await dataSources.productGraphQLAPI.products({
                 first, last, before, after, pageNumber, itemsPerPage
             });
+        },
+        checkout: async (_, options, { dataSources }) => {
+            const { id } = options;
+            return await dataSources.checkoutGraphQLAPI.checkout(id);
         }
-
     },
     Mutation: {
         checkoutCreate: async (_, options, { dataSources }) => {

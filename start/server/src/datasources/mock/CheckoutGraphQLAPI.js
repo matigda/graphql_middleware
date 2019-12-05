@@ -46,8 +46,12 @@ class CheckoutGraphQLAPI {
     async checkoutLineItemsReplace(checkoutId, lineItems) {
 
         const productsJson = require('./data/products.json');
+        const checkoutLineItemsReplace = require('./data/checkoutLineItemsReplace.json');
     }
 
+    async checkout() {
+        return require('./data/checkout.json');
+    }
 }
 
 
