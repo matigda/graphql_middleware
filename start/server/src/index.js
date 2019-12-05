@@ -1,6 +1,6 @@
-const CollectionGraphQLAPI = require( "./datasources/mock/CollectionGraphQLAPI");
-const ProductGraphQLAPI = require( "./datasources/mock/ProductGraphQLAPI");
-const CheckoutGraphQLAPI = require( "./datasources/mock/CheckoutGraphQLAPI");
+const CollectionGraphQLAPI = require( "./datasources/shopify/CollectionGraphQLAPI");
+const ProductGraphQLAPI = require( "./datasources/shopify/ProductGraphQLAPI");
+const CheckoutGraphQLAPI = require( "./datasources/shopify/CheckoutGraphQLAPI");
 
 const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./schema');
